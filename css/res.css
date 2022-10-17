@@ -49,6 +49,7 @@
       top: 8px;
    }
    #main_visual{padding: 77px 0 0 0;}
+   ul.main_slide{height: 600px;}
    .main_txt_left{
       text-align: center;
       top: 25px;left: 50%;
