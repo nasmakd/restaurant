@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+/* main visual */
+#main_visual{
+   border-bottom: 2px solid #1A4D2E;
+   position: relative;
+   padding: 100px 0 0 0;
+}
+#main_visual::after{
+   content: "";
+   position: absolute;
+   bottom: -7px;left: 0;
+   width: 100%;height: 2px;
+   background-color: #D5353F;
+}
+#main_visual .wrap{overflow-x: hidden;}
+ul.main_slide{
+   height: 650px;
+}
+ul.main_slide li{
+   position: relative;
+   height: 100%;
+}
+.main_img_wrap, .main_img_wrap_wide{ 
+   position: absolute;
+   bottom: 0;left: 50%;
+   transform: translateX(-50%);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+}
+.main_img_wrap_wide{width: 100%;height: 100%;}
+
+
+.main_txt_left{
+   position: absolute;
+   top: 50%;left: 10%;
+   transform: translateY(-50%);
+}
+.main_txt_right{
+   position: absolute;
+   top: 50%;right: 10%;
+   transform: translateY(-50%);
+}
+.main_txt_left h2{
+   font-size: 36px;
+}
+.main_txt_center{
+   position: absolute;
+   top: 50%;left: 50%;
+   color: #fff;
+   transform: translate(-50%,-50%);
+   text-align: center;
+   text-shadow: 0px 2px 5px rgba(0, 0, 0, .3);
+}
+.main_txt_center h2{font-size: 40px;margin-bottom: 20px;}
+
+/* Gucci Osteria */
+
+#intro{border-bottom: 1px solid #AD8B73;}
+ul.intro_list {
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+}
+ul.intro_list li{margin: 0 15px;}
+ul.intro_list li img{height: 200px;}
+ul.intro_list li:nth-child(3) img{height: 250px;}
+#intro p{
+   text-align: center;
+   margin-top: 45px;
+}
+
+/* about */
+#about{
+   border-bottom: 1px solid #AD8B73;
+}
+section .content_wrap{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 30px;
+}
+
+#about .right img{width: 300px;}
+
+/* chef */
+#chef{   border-bottom: 1px solid #AD8B73;}
+
+#chef .left img{width: 300px;}
+
+/* menu */
+#menu{
+   text-align: center;
+}
+ul.menu_list{
+   margin-top: 60px;
+   padding-bottom: 30px;
+   
+}
+ul.menu_list li{
+   display: inline-block;
+   margin: 0 15px;
+}
+ul.menu_list li img{max-width: 100%;}
+.slick-prev, .slick-next{display: none !important;}
