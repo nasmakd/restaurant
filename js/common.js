@@ -1,3 +1,5 @@
+AOS.init();
+
 $('.menu_btn').click(function () {
    $('.menu_btn').toggleClass('on');
    if ($(this).hasClass('on')) {
