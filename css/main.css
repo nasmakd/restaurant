@@ -14,9 +14,7 @@
    background-color: #D5353F;
 }
 #main_visual .wrap{overflow-x: hidden;}
-ul.main_slide{
-   height: 650px;
-}
+ul.main_slide{height: 860px;}
 ul.main_slide li{
    position: relative;
    height: 100%;
@@ -30,7 +28,7 @@ ul.main_slide li{
    background-size: cover;
 }
 .main_img_wrap_wide{width: 100%;height: 100%;}
-
+.main_img_wrap img{height: 650px;}
 
 .main_txt_left{
    position: absolute;

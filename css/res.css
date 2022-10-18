@@ -2,6 +2,8 @@
 
 @media (max-width: 1200px){
    .inner{width: 90%;}
+   ul.main_slide{height: 760px;}
+   .main_img_wrap img{height: 550px;}
    .main_txt_right{right: 5%;}
    .main_txt_left{left: 5%;}
    ul.intro_list li img{height: 150px;}
@@ -50,6 +52,7 @@
    }
    #main_visual{padding: 77px 0 0 0;}
    ul.main_slide{height: 600px;}
+   .main_img_wrap img{height: 380px;}
    .main_txt_left{
       text-align: center;
       top: 25px;left: 50%;
@@ -89,7 +92,7 @@
    .inner{width: 100%;}
    .main_img_wrap img{width: 300px;}
    .main_txt_left h2{font-size: 28px;}
-   .main_txt_left{top: 20%;}
+   .main_txt_left{top: 15%;}
    ul.intro_list li:first-child,ul.intro_list li:last-child{display: none;}
    #intro p{font-size: 14px;}
    .sec_txt{font-size: 14px;}
