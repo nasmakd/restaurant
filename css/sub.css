@@ -78,6 +78,8 @@
 .news_list li{
    padding: 20px 0;
    border-bottom: 1px solid #AD8B73;
+   font-family: serif;
+   font-family: 'Philosopher', sans-serif;
 }
 .news_list li:first-child{
    padding: 0 0 20px 0;
