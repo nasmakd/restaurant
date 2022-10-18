@@ -88,6 +88,8 @@
    .sec2_img li {margin: 0 10px;}
    .sec2_img li img {height: 110px;}
    .sec2_img li:nth-child(3) img {height: 160px;}
+   /* news */
+   #news_sec1{padding-top: 77px;}
 }
 @media (max-width: 768px){
    .inner{width: 100%;}
