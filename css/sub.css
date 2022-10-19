@@ -131,7 +131,7 @@
 .full_name>div,.contact_customer>div,.request_sel>div, .msg{
    padding: 10px;border: 2px solid transparent;
 }
-.request_sel>div{display: inline-block;}
+.request_sel>div{display: inline-block;width: 100%;}
 
 #contact label{
    font-family: 'Philosopher', sans-serif;
