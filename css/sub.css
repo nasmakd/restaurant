@@ -151,6 +151,9 @@
 #contact input:not([type='submit']){
    min-width: 220px;
 }
+#contact input[type='number']{
+   appearance: none;
+}
 #contact input::placeholder{
    font-size: 16px;
 }
