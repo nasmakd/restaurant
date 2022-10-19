@@ -105,8 +105,128 @@
    margin-bottom: 10px;
 }
 
+/* contact */
+#contact{
+   padding-top: 107px;
+}
 
+.contact_title{
+   padding: 50px 0 30px;
+   text-align: center;
+}
+.contact_title h2{
+   font-size: 36px;
+   margin-bottom: 20px;
+}
 
+.form_wrap{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.form_wrap>div{margin: 20px 0;}
+.full_name,.contact_customer, .privacy_submit{
+   display: flex;
+}  
+.full_name>div,.contact_customer>div,.request_sel>div, .msg{
+   padding: 10px;border: 2px solid transparent;
+}
+.request_sel>div{display: inline-block;}
 
+#contact label{
+   font-family: 'Philosopher', sans-serif;
+   display: block;
+   padding-bottom: 10px;
+   transition: .5s;
+}
+#contact input{
+   background: none;
+   border: none;
+   font-size: 1.66vw;
+   outline: none;
+   font-family: 'Philosopher', sans-serif;
+   color: #483434;
+   border-bottom: 1px solid #483434;
+   padding: 5px;
+}
+#contact input:not([type='submit']){
+   min-width: 220px;
+}
+#contact input::placeholder{
+   font-size: 16px;
+}
+#contact select{
+   border: none;
+   font-family: 'Noto Sans KR', sans-serif;
+   background-color: #E3CAA5;
+   font-size: 1.3vw;
+   color: #483434;
+   outline: none;
+   text-align: center;
+   font-weight: 200;
+   border-bottom: 1px solid #483434;
+   padding-bottom: 8px;
+   min-width: 220px;
+}
+#message{
+   appearance: none;
+   resize: none;
+   border: none;
+   outline: none;
+   width: 100%;
+   background-color: #E3CAA5;
+   font-size: 1.3vw;color: #483434;
+   border-bottom: 1px solid #483434;
+   font-family: 'Noto Sans KR', sans-serif;
+}
 
+.privacy_submit{
+   justify-content: space-around;
+   width: 100%;
+}
+.privacy_submit .privacy{
+   font-size: 13px;
+}
+.privacy_submit .privacy a{
+   text-decoration: underline;
+   margin-left: 10px;
+}
+#contact .privacy_submit input{
+   border: 0;
+   cursor: pointer;
+   font-size: 18px;
+   font-weight: 700;
+}
 
+.privacy_submit .submit{
+   position: relative;
+   width: 82px;
+   text-align: center;
+}
+.privacy_submit .submit::before{
+   content: "";
+   position: absolute;
+   width: 100%;height: 100%;
+   background-color: rgba(255, 255, 255, .3);
+   left: calc(50% - 41px);top: calc(50% - 25px);
+   z-index: -1;
+   transform: scaleY(0);
+   transition: .5s;
+}
+.privacy_submit .submit:hover::before{
+   transform: scaleY(1);
+}
+
+#shop_info{padding-top: 0;}
+#shop_info h2{
+   font-size: 30px;
+   text-align: center;
+   padding: 0 0 30px; 
+}
+#shop_info .info_wrap{
+   display: flex;
+   justify-content: space-evenly;
+}
+.info_wrap h3{
+   margin-bottom: 10px;
+}

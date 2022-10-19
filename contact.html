@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ABOUT</title>
+   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/common.css">
+   <link rel="stylesheet" href="css/sub.css">
+   <link rel="stylesheet" href="css/res.css">
+   <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script defer src="js/common.js"></script>
+</head>
+<body>
+   <header>
+      <div class="inner">
+         <h1 class="logo">
+            <a href="index.html"><img src="img/logo.svg" alt="구찌 오스테리아"></a>
+         </h1>
+         <nav>
+            <ul class="nav_left">
+               <li><a href="about.html">About</a></li>
+               <li><a href="#">Chef</a></li>
+               <li><a href="#">Menu</a></li>
+            </ul>
+            <ul class="nav_right">
+               <li><a href="#">Reservation</a></li>
+               <li><a href="news.html">News</a></li>
+               <li><a href="contact.html">Contact</a></li>
+            </ul>
+         </nav>
+         <div class="menu_btn">
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
+      </div>
+   </header>
+   <section id="contact">
+      <div class="inner">
+         <div class="contact_title" data-aos="fade-up" data-aos-duration="2000">
+            <h2 class="en_txt">Contact Us</h2>
+            <p>예약 문의 또는 일반 문의는 밑의 양식 작성을 부탁드립니다.</p>
+         </div>
+         <form action="">
+            <div class="form_wrap" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
+               <div class="full_name">
+                  <div class="name1">
+                     <label for="name">Name</label>
+                     <input type="text" id="name">
+                  </div>
+                  <div class="name2">
+                     <label for="surname">Surname</label>
+                     <input type="text" id="surname">
+                  </div>
+               </div>
+               <div class="contact_customer">
+                  <div class="phone_num">
+                     <label for="tel">Telephone</label>
+                     <input type="text" id="tel" placeholder="+82 12 3456 7890">
+                  </div>
+                  <div class="email_addr">
+                     <label for="email">Email</label>
+                     <input type="email" name="email" id="email">
+                  </div>
+               </div>
+               <div class="request_sel">
+                  <div class="">
+                     <label for="request">Request Type</label>
+                     <select name="request" id="request">
+                        <option value="closingday">정기 휴일 관련 문의</option>
+                        <option value="openinghour">영업시간 관련 문의</option>
+                        <option value="parking">주차장 관련 문의</option>
+                        <option value="rent">대관 관련 문의</option>
+                        <option value="media">미디어 촬영 및 게시 관련 문의</option>
+                     </select>
+                  </div>
+               </div>
+               <div class="msg">
+                  <label for="message">Message</label>
+                  <textarea name="message" id="message" cols="30" rows="4" maxlength="500"></textarea>
+               </div>
+               <div class="privacy_submit">
+                  <div class="privacy"><span>문의 내용을 보내기 전에 개인정보취급방침을<br>확인하시기 바랍니다.</span><a href="#">Privacy Policy</a></div>
+                  <div class="submit"><input type="submit" value="SEND"></div>
+               </div>
+            </div>
+         </form>
+      </div>
+   </section>
+   <section id="shop_info">
+      <div class="inner">
+         <h2 class="en_txt" data-aos="fade-up" data-aos-duration="2000">Get in touch with us.</h2>
+         <div class="info_wrap" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500" data-aos-offset="100">
+            <div class="shop">
+               <h3>구찌 오스테리아 서울</h3>
+               <p>T. 02-795-1119</p>
+               <p class="en_txt">M. gucciosteria.kr@gucci.com</p>
+            </div>
+            <div class="op_hour">
+               <h3>영업 시간</h3>
+               <p>
+                  점심: 월요일- 일요일 [11:30 – 16:00 라스트오더 14:00]<br>
+                  저녁: 월요일- 일요일 [18:00 – 22:00 라스트오더 20:00]<br>
+                  아페리티보: 월요일- 일요일 [16:00 – 18:00]
+               </p>
+            </div>
+         </div>
+      </div>
+   </section>
+   <footer>
+      <div class="inner">
+         <div class="footer_left">
+            <h4 class="en_txt">Gucci Osteria</h4>
+            <div class="f_info">
+               <div class="adr">
+                  <p>Gucci Gaok, 6F,<br>
+                     223, Itaewon-Ro,<br>
+                     Yongsan-Gu, Seoul</p>
+               </div>
+               <div class="contact">
+                  <p class="tel">Tel: 02-795-1119</p>
+                  <p class="email">e-mail: gucciosteria.kr@gucci.com</p>
+               </div>
+            </div>
+         </div>
+         <div class="footer_right">
+            <div class="places mo_hide">
+               <h5 class="en_txt">Places</h5>
+               <ul>
+                  <li>Florence – Italy</li>
+                  <li>Beverly Hills – USA</li>
+                  <li>Tokyo – Japan</li>
+               </ul>
+            </div>
+            <div class="sns">
+               <h5 class="en_txt">Follow us</h5>
+               <ul>
+                  <li><a href="#"><span class="mo_hide">Instagram</span> <img src="img/instagram.svg" alt="인스타그램" class="pc_hide"></a></li>
+                  <li><a href="#"><span class="mo_hide">Facebook</span> <img src="img/facebook.svg" alt="페이스북" class="pc_hide"></a></li>
+               </ul>
+            </div>
+            <div class="lang mo_hide">
+               <h5 class="en_txt">Languages</h5>
+               <ul>
+                  <li>Korean</li>
+                  <li>English</li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </footer>
+</body>
+</html>

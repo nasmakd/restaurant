@@ -88,8 +88,27 @@
    .sec2_img li {margin: 0 10px;}
    .sec2_img li img {height: 110px;}
    .sec2_img li:nth-child(3) img {height: 160px;}
-   /* news */
+   /*sub - news */
    #news_sec1{padding-top: 77px;}
+   /* sub - contact  */
+   #contact{padding-top: 77px;}
+   .contact_title h2{font-size: 30px;}
+   .contact_title p{font-size: 13px;}
+   .full_name,.contact_customer, .privacy_submit{display: block;}
+   .privacy_submit .privacy{
+      text-align: center;
+      font-size: 12px;
+   }
+   .privacy_submit .submit{
+      margin: 20px auto 0;
+      border: 1px solid #483434;
+   }
+   .privacy_submit .submit::before{display: none;}
+   #shop_info .info_wrap{
+      flex-direction: column;
+      row-gap: 20px;
+      align-items: center;
+   }
 }
 @media (max-width: 768px){
    .inner{width: 100%;}
@@ -116,6 +135,13 @@
    .news_cont{display: none;}
    .news_title{font-size: 20px;}
    .news_img img{height: 130px;}
+   /* sub - contact */
+   #contact input, #contact select, #message{
+      font-size: 16px;
+   }
+   .info_wrap>div p{
+      font-size: 13px;
+   }
 }
 @media (max-width: 480px){
    .sub_title, #about_sec2 h3{font-size: 24px;}
