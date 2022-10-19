@@ -98,7 +98,7 @@ ul.menu_list{
 }
 ul.menu_list li{
    display: inline-block;
-   margin: 0 15px;
+   margin: 0 10px;
 }
 ul.menu_list li img{max-width: 100%;}
 .slick-prev, .slick-next{display: none !important;}
