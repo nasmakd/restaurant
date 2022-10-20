@@ -11,7 +11,7 @@
    ul.intro_list li{margin: 0 10px;}
 }
 
-@media (max-width: 1023px){
+@media (max-width: 1024px){
    .mo_hide{display: none;}
    .pc_hide{display: block;}
    .inner{width: 95%;}  
