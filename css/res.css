@@ -92,8 +92,7 @@
    #news_sec1{padding-top: 77px;}
    /* sub - contact  */
    #contact{padding-top: 77px;}
-   .contact_title h2{font-size: 30px;}
-   .contact_title p{font-size: 13px;}
+   .sub_title .contact_sub_title{font-size: 13px;}
    .full_name,.contact_customer, .privacy_submit{display: block;}
    .privacy_submit .privacy{
       text-align: center;
